@@ -12,7 +12,8 @@ async function getAdvice(){
   setAdvice(data1.slip.advice)
   // setCount(count+1 ) this is also correct
   setCount((ev)=> ev + 1)
-  //for testing
+  //for testing 
+  //After tested
 
 
 }
