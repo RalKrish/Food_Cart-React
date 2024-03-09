@@ -1,0 +1,27 @@
+.mainBox{
+  margin-left:4rem ;
+  margin-top: 2rem;
+}
+.cart_Product{
+display: flex;
+align-items: center;
+gap: 1rem;
+margin-bottom: 1rem;
+box-shadow: 0px 0px 8px 2px #66646477;
+width: 30rem;
+/* height: 6.5rem; */
+padding: 0.1rem;
+border-radius: 0.5rem;
+
+}
+.imgBox{
+background-color: green;
+width:6.5rem ;
+height: 6.5rem;
+
+}
+.imgBox img{
+ width: 100%;
+ height: 100%;
+
+}

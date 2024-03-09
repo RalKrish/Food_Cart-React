@@ -1,0 +1,22 @@
+[
+  { "id": 1, "name": "Apple", "amt": "50", "image": "./fruits.jpg" },
+  { "id": 2, "name": "Banana", "amt": "30", "image": "./fruits.jpg" },
+  { "id": 3, "name": "Orange", "amt": "40", "image": "./fruits.jpg" },
+  { "id": 4, "name": "Strawberry", "amt": "25", "image": "./fruits.jpg" },
+  { "id": 5, "name": "Grapes", "amt": "35", "image": "./fruits.jpg" },
+  { "id": 6, "name": "Pineapple", "amt": "45", "image": "./fruits.jpg" },
+  { "id": 7, "name": "Watermelon", "amt": "55", "image": "./fruits.jpg" },
+  { "id": 8, "name": "Kiwi", "amt": "60", "image": "./fruits.jpg" },
+  { "id": 9, "name": "Peach", "amt": "20", "image": "./fruits.jpg" },
+  { "id": 10, "name": "Pear", "amt": "70", "image": "./fruits.jpg" },
+  { "id": 11, "name": "Mango", "amt": "65", "image": "./fruits.jpg" },
+  { "id": 12, "name": "Pomegranate", "amt": "80", "image": "./fruits.jpg" },
+  { "id": 13, "name": "Cherry", "amt": "15", "image": "./fruits.jpg" },
+  { "id": 14, "name": "Plum", "amt": "40", "image": "./fruits.jpg" },
+  { "id": 15, "name": "Apricot", "amt": "50", "image": "./fruits.jpg" },
+  { "id": 16, "name": "Blueberry", "amt": "30", "image": "./fruits.jpg" },
+  { "id": 17, "name": "Raspberry", "amt": "65", "image": "./fruits.jpg" },
+  { "id": 18, "name": "Blackberry", "amt": "55", "image": "./fruits.jpg" },
+  { "id": 19, "name": "Cranberry", "amt": "35", "image": "./fruits.jpg" },
+  { "id": 20, "name": "Guava", "amt": "45", "image": "./fruits.jpg" }
+]
