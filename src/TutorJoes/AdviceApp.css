@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+ body {
+  height:100vh;
+  width: 100vw;
+  overflow: hidden;
+  padding: 2rem 0;
+  background-color: aqua;
+}
+
+.mainCont {
+  background-color: rgb(211, 124, 124);
+  color: beige;
+  margin: 2rem auto;
+  margin-bottom: 5rem;
+  height: 38rem;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  background-color: bisque;
+  border: none;
+  padding: 0.8rem;
+  font-size: 25px;
+  border-radius: 10px;
+}
+b{
+  font-size: 2rem;
+  margin: 0 15px;
+}

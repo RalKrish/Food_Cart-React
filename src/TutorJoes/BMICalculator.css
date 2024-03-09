@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.mainCont {
+  width: 40rem;
+  background-color: beige;
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 2rem auto;
+}
+.element{
+  width: 20rem;
+  /* background-color: orange; */
+}
+.element label{
+  display: inline-table;
+  /* background-color: rgb(235, 191, 191); */
+  width: 6rem;
+}
+#female{
+  margin-left: 1rem;
+}
+.element span{
+  text-decoration: underline;
+  color: rgba(61, 61, 213, 0.89);
+}
+.error1{
+  color: rgba(255, 0, 0, 0.849);
+  font-size: 1.5rem;
+}

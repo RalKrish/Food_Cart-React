@@ -1,0 +1,53 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  height: 100%;
+  background-color: gray;
+}
+
+
+.mainCont{
+  width: 100vw;
+  background-color: beige;
+  height: 40rem;
+  padding: 1rem;
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+
+.imgBox{
+  width: fit-content;
+  height:fit-content;
+}
+#dataInput{
+  width: 20rem;
+  height: 2.5rem;
+}
+#sizeInput{
+  width: 20rem;
+  height: 2.5rem;
+}
+label{
+  margin-top: 2rem;
+}
+button{
+  margin: 5px;
+  width: fit-content;
+  height: 2.5rem;
+  background-color:#1bb150e4;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+
+
+}

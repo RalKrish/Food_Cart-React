@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.calendar {
+  width: 400px;
+  background-color: rgb(243, 240, 240);
+  margin: 40px auto;
+  padding: 4px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(32, 78, 229, 0.854);
+  padding: 5px;
+}
+button {
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  color: rgba(43, 43, 43, 0.836);
+  border-radius: 50%;
+  border: solid 1px rgba(39, 38, 38, 0.785);
+}
+
+.monthSel {
+  width: 100px;
+}
+
+.theYear{
+  width: 60px;
+}
+
+
+.daysOfWeek {
+  display: grid;
+  align-items: center;
+  gap: 1.8rem;
+text-align: center;
+grid-template-columns: repeat(7,1fr);
+  padding: 5px;
+
+}
+.days{
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  gap: 8px;
+
+}
+.visibleDays ,.emptyDays{
+  background-color:white;
+  text-align: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  margin-left:0.2rem;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+
+
+}
+.visibleDays:hover{
+  background-color: rgba(40, 108, 224, 0.977);
+  color: white;
+
+}
+.emptyDays{
+  background-color: beige;
+}
+
+.current{
+  background-color: orange;
+}
+
+.todayDate{
+  width: 4rem;
+ all: initial;
+ background-color: rgb(162, 59, 210);
+ color: white;
+ font-size: 0.8rem;
+ padding: 2px 5px;
+ border-radius: 2px;
+ cursor: pointer;
+
+}

@@ -1,0 +1,135 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+}
+
+.Themain{
+  display: flex;
+  flex-direction: row;
+ align-items: center;
+ /* justify-content: center; */
+ width: fit-content;
+ /* background-color: rgb(19, 200, 140); */
+gap: 1rem;
+margin: 5rem auto;
+ height:500px;
+ padding: 1rem;
+}
+.card_container{
+  background-color: rgba(47, 46, 46, 0.804);
+  color: rgb(236, 233, 233);
+  width: 280px;
+  margin: 10px auto;
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 450px;
+  border-radius: 10px;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+object-fit: fill;
+border: 2px solid;
+padding: 5px;
+}
+
+.online{
+  position: absolute;
+  color: black;
+  z-index: 5;
+  background-color: greenyellow;
+  font-size:14px;
+  padding: 5px 7px;
+  font-weight: 500;
+  top: 20px;
+  left:10px;
+  border-radius: 4px;
+}
+.offline{
+
+    position: absolute;
+    color: black;
+    z-index: 5;
+    background-color: rgb(229, 233, 224);
+    font-size:14px;
+    padding: 5px 7px;
+    font-weight: 500;
+    top: 20px;
+    left:10px;
+    border-radius: 4px;
+
+}
+
+
+h3{
+  margin-top: 0;
+  margin-bottom: 0;
+font-size: 15px;
+  text-align: left;
+  font-weight: 500;
+}
+
+.user{
+  margin-top: 10px;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.chennai{
+  font-weight: 400;
+  font-size: 14px;
+}
+
+p{
+  font-size: 17px;
+  color: rgba(240, 248, 255, 0.933);
+  font-style: italic;
+  margin-top: 10px;
+  text-decoration-line: underline;
+}
+
+.theBtn{
+  background-color: rgb(60, 133, 221);
+  color: aliceblue;
+  border: none;
+  padding: 8px 13px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  /* margin-top: 10px; */
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.follow{
+  background-color: rgba(47, 46, 46, 0.804);
+  color: white;
+  border: 1px solid rgb(60, 133, 221);
+}
+
+.skills{
+  margin-top: 10px;
+}
+
+h6{
+  font-size: 15px;
+  margin: 10px 0;
+}
+.skills ul li{
+  display: inline-block;
+  border: 1px solid rgb(140, 138, 138) ;
+  margin: 0 5px 7px 0;
+  padding: 5px 8px;
+  font-size: 12px;
+}

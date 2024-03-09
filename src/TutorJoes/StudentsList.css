@@ -1,0 +1,17 @@
+.studTable table{
+  border: 1px solid grey;
+  width: 300px;
+  margin-bottom: 10px;
+  border-collapse: collapse;
+}
+.studTable th ,
+.studTable td{
+  border: 1px solid grey;
+
+}
+.studTable th{
+  width: 150px;
+  background-color: beige;
+  text-align: left;
+  /* border-collapse: collapse; */
+}
