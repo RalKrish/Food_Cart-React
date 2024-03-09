@@ -1,0 +1,64 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.mainContainer {
+  width: 100vw;
+  height: 100%;
+  /* background-color: lightblue; */
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+.prodBox {
+  width: 100%;
+  /* height: 60rem; */
+  height: fit-content;
+  padding: 4rem;
+  /* background-color: lightgreen; */
+  display: flex;
+  /* align-items: center; */
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.product {
+  background-color: orange;
+  width: 20rem;
+  height: 15rem;
+}
+.images1 {
+  width: 18rem;
+  height: 150px;
+}
+.button {
+  /* margin-top: 20rem; */
+  width: 100vw;
+margin-bottom: 2rem;
+  /* background-color: rgb(185, 138, 138); */
+  /* position: absolute; */
+  bottom: 0;
+  text-align: center;
+
+}
+.button2{
+  background-color: rgb(194, 120, 194);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;;
+  transition: 0.3s;
+}
+.button2:hover{
+  background-color: rgb(150, 92, 150);;
+}
+
+
+
+.button2:disabled{
+  background-color: rgb(203, 174, 174);;
+color: white;
+cursor: none;
+}
